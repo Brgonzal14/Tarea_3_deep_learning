@@ -1,0 +1,29 @@
+{
+  "runner": "ollama",
+  "models": [
+    {
+      "id": "llama",
+      "family": "LLaMA",
+      "ollama_name": "llama3.2:3b",
+      "version_note": "LLaMA 3.2 3B via Ollama"
+    },
+    {
+      "id": "phi",
+      "family": "Phi",
+      "ollama_name": "phi4-mini",
+      "version_note": "Phi-4 Mini via Ollama"
+    },
+    {
+      "id": "mistral",
+      "family": "Mistral",
+      "ollama_name": "mistral:7b",
+      "version_note": "Mistral 7B via Ollama"
+    }
+  ],
+  "generation_options": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_predict": 4096,
+    "seed": 3360
+  }
+}

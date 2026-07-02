@@ -1,0 +1,38 @@
+{
+  "topic": "Consultas de estudiantes a soporte universitario",
+  "language": "espanol",
+  "schema": {
+    "id": "string",
+    "texto": "string",
+    "intencion": "matricula | pagos | horarios | plataforma | becas | certificado",
+    "urgencia": "baja | media | alta"
+  },
+  "prompts": [
+    {
+      "id": "p01",
+      "num_examples": 20,
+      "prompt": "Genera 20 ejemplos sinteticos de consultas de estudiantes a soporte universitario en espanol. Devuelve exclusivamente un arreglo JSON valido. Cada objeto debe tener exactamente estos campos: id, texto, intencion, urgencia. Las intenciones permitidas son: matricula, pagos, horarios, plataforma, becas, certificado. Las urgencias permitidas son: baja, media, alta. El campo texto debe tener entre 12 y 35 palabras, sonar natural, no incluir datos personales reales y no repetir frases. Usa ids p01_001 a p01_020. No agregues explicaciones ni Markdown."
+    },
+    {
+      "id": "p02",
+      "num_examples": 20,
+      "prompt": "Genera 20 mensajes sinteticos escritos por estudiantes que contactan soporte universitario. Devuelve solo JSON valido como arreglo de objetos. Campos obligatorios: id, texto, intencion, urgencia. Intenciones validas: matricula, pagos, horarios, plataforma, becas, certificado. Urgencias validas: baja, media, alta. Incluye variedad de estilos: formal, informal, breve y detallado. Cada texto debe tener 12 a 35 palabras. Usa ids p02_001 a p02_020. No inventes nombres, RUT, correos ni telefonos."
+    },
+    {
+      "id": "p03",
+      "num_examples": 20,
+      "prompt": "Crea 20 consultas sinteticas para un dataset de atencion a estudiantes universitarios. Responde exclusivamente con un arreglo JSON. Cada ejemplo debe tener id, texto, intencion y urgencia. Las intenciones permitidas son matricula, pagos, horarios, plataforma, becas y certificado. Las urgencias permitidas son baja, media y alta. Asegura diversidad semantica y evita duplicados. Cada texto debe estar en espanol y tener entre 12 y 35 palabras. Usa ids p03_001 a p03_020."
+    },
+    {
+      "id": "p04",
+      "num_examples": 20,
+      "prompt": "Genera 20 ejemplos sinteticos de consultas de soporte universitario con etiquetas. La salida debe ser solo un arreglo JSON valido, sin comentarios. Campos exactos: id, texto, intencion, urgencia. Intencion debe ser una de: matricula, pagos, horarios, plataforma, becas, certificado. Urgencia debe ser una de: baja, media, alta. Mezcla problemas academicos y administrativos, manteniendo el texto entre 12 y 35 palabras. Usa ids p04_001 a p04_020."
+    },
+    {
+      "id": "p05",
+      "num_examples": 20,
+      "prompt": "Produce 20 registros sinteticos para clasificar consultas de estudiantes universitarios. Entrega exclusivamente JSON valido como lista de objetos. Cada objeto debe contener id, texto, intencion y urgencia. Intenciones: matricula, pagos, horarios, plataforma, becas, certificado. Urgencias: baja, media, alta. El texto debe ser claro, realista, en espanol, entre 12 y 35 palabras y sin informacion personal. Usa ids p05_001 a p05_020."
+    }
+  ]
+}
+

@@ -1,0 +1,100 @@
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_001", "texto": "Estoy confundido sobre cómo solicitar una beca de matrícula.", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_002", "texto": "Necesito ayuda para actualizar mi horario en la plataforma universitaria.", "intencion": "horarios", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_003", "texto": "¿Cómo puedo hacer un pago anticipado de matrícula?", "intencion": "pagos", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_004", "texto": "Estoy buscando cómo obtener mi certificado académico en la universidad.", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_005", "texto": "Quisiera saber los horarios disponibles para el próximo semestre de matemáticas.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_006", "texto": "Estoy teniendo problemas con mi cuenta en la plataforma universitaria, ¿puedo obtener ayuda?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_007", "texto": "", "intencion": "", "urgencia": ""}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_008", "texto": "Tengo dificultades con el proceso de pago anticipado, ¿puedo recibir orientación?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_009", "texto": "¿Cuál es la manera correcta para solicitar una transferencia académica?", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_010", "texto": "Estoy buscando cómo cambiar mi horario de clases en el sistema universitario.", "intencion": "horarios", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_011", "texto": "Necesito asistencia para navegar por la página del portal universitaria y hacer pagos.", "intencion": "plataforma", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_012", "texto": "¿Cómo puedo solicitar una beca de ayuda financiera a tiempo?", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_013", "texto": "Estoy buscando cómo cambiar mi horario debido al trabajo.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_014", "texto": "¿Cómo puedo asegurarme de que mis pagos mensuales estén pendientes?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_015", "texto": "Estoy necesitando ayuda para solicitar un certificado de crédito del instituto.", "intencion": "certificado", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_016", "texto": "Necesito información sobre cómo encargar una beca deportiva a tiempo.", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_017", "texto": "Estoy teniendo problemas para ver mi horario de clases en la plataforma universitaria, ¿puedo recibir ayuda?", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_018", "texto": "Necesito orientación sobre cómo realizar el pago anticipado con una tarjeta de crédito.", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_019", "texto": "Estoy buscando formas de solicitar un certificado académico para mi carrera en la universidad.", "intencion": "certificado", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p01", "id": "p01_020", "texto": "Necesito ayuda con el proceso de solicitud de una beca universitaria, ¿puedo obtener orientación?", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_001", "texto": "Hola, quisiera cambiar mi horario de clases.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_002", "texto": "Necesito ayuda con el pago del semestre.", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_003", "texto": "¿Cómo acceder a la plataforma de estudiantes?", "intencion": "plataforma", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_004", "texto": "Mi beca no ha sido procesada.", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_005", "texto": "Por favor, envíame mi certificado de inscripción.", "intencion": "certificado", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_006", "texto": "Estoy insatisfecho con el horario actual. Recomendación para cambio?", "intencion": "horarios", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_007", "texto": "Hola, necesito ayuda con mi RUT.", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_008", "texto": "¿Cómo puedo pagar por adelantado para el próximo año?", "intencion": "pagos", "urgencia": "baja"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_009", "texto": "Estoy teniendo problemas con la plataforma de estudiantes, ¿puedo llamarte?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_010", "texto": "Necesito información sobre becas deportivas.", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_011", "texto": "¿Puedes ayudarme a solicitar mi certificado de matrícula?", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_012", "texto": "Quisiera saber sobre horarios alternativos para la próxima semana.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_013", "texto": "Estoy teniendo problemas con mi pago del semestre, ¿puedes ayudarme?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_014", "texto": "¿Cómo puedo acceder al portal de estudiantes para ver el calendario académico?", "intencion": "plataforma", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_015", "texto": "Necesito ayuda con la solicitud de una beca.", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_016", "texto": "¿Cómo puedo obtener mi certificado académico?", "intencion": "certificado", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_017", "texto": "Necesito cambiar a otro horario de clases, ¿es posible hacerlo ahora?", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_018", "texto": "Estoy teniendo problemas con la plataforma. Me gustaría hablar contigo.", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_019", "texto": "¿Cómo puedo pagar mi matrícula por adelantado?", "intencion": "pagos", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p02", "id": "p02_020", "texto": "Necesito ayuda con el proceso de solicitud para una beca.", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_001", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_002", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_003", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_004", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_005", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_006", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_007", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_008", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_009", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_010", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_011", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_012", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_013", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_014", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_015", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_016", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_017", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_018", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_019", "texto": "", "intencion": "", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p03", "id": "p03_020", "texto": "", "intencion": "", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_001", "texto": "Ayuda con cómo inscribirme en un nuevo curso.", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_002", "texto": "¿Cómo puedo hacer un pago anticipado de matrícula?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_003", "texto": "Necesito cambiar mi horario semestral.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_004", "texto": "¿Dónde puedo acceder al sistema de gestión académica?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_005", "texto": "Quiero solicitar una beca financiera.", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_006", "texto": "¿Cómo puedo obtener mi certificado de graduación?", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_007", "texto": "Estoy teniendo problemas con la recuperación del correo electrónico universitario.", "intencion": "plataforma", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_008", "texto": "Necesito ayuda para entender las políticas de vivienda estudiantil.", "intencion": "reglas administrativas", "urgencia": "baja"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_009", "texto": "¿Cómo puedo cambiar mi dirección en el directorio universitario?", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_010", "texto": "Tengo problemas con la verificación de pago.", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_011", "texto": "Estoy buscando ayuda para gestionar mis horarios académicos.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_012", "texto": "¿Dónde puedo ver los resultados de mi prueba final?", "intencion": "certificado", "urgencia": "baja"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_013", "texto": "Necesito ayuda para completar el formulario de solicitud de beca.", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_014", "texto": "¿Cómo puedo hacer un depósito anticipado del semestre?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_015", "texto": "Necesito actualizar mis datos personales en el portal de la universidad.", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_016", "texto": "¿Cómo puedo acceder al sistema de asistencia financiera?", "intencion": "becas", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_017", "texto": "Estoy tratando de ver mi historial académico.", "intencion": "certificado", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_018", "texto": "¿Cómo puedo encauzar una solicitud para la biblioteca?", "intencion": "reglas administrativas", "urgencia": "baja"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_019", "texto": "Estoy en problemas con el sistema de pagos, necesito ayuda urgente.", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p04", "id": "p04_020", "texto": "Necesito información sobre cómo hacer una transferencia bancaria para matrícula.", "intencion": "pagos", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_001", "texto": "Cómo inscribirme para el curso de Historia del Arte.", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_002", "texto": "Dónde puedo hacer mi pago mensual en la universidad?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_003", "texto": "Necesito ver los horarios de las clases para esta semana.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_004", "texto": "Estoy teniendo problemas con el acceso a la plataforma académica, ¿puedo tener ayuda?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_005", "texto": "¿Cómo puedo aplicar para una beca de financiamiento estudiantil?", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_006", "texto": "Necesito un certificado de asistencia para mi trabajo del mes pasado.", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_007", "texto": "¿Dónde puedo encontrar la información sobre nuevos cursos disponibles?", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_008", "texto": "Estoy en problemas con mi saldo de pagos, ¿puedo hablar con alguien?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_009", "texto": "Mi horario actual no coincide con las clases que necesito asistir.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_010", "texto": "Tengo dificultades para acceder al portal de la universidad, ¿puedo obtener ayuda?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_011", "texto": "¿Cómo puedo solicitar una beca en esta oficina universitaria?", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_012", "texto": "Necesito un certificado de asistencia para mi empleo.", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_013", "texto": "¿Dónde puedo inscribirme en el curso de Ciencias Ambientales?", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_014", "texto": "Tengo una multa por pago atrasado, ¿cómo puedo resolverla?", "intencion": "pagos", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_015", "texto": "Estoy tratando de encontrar los horarios para mi curso en línea.", "intencion": "horarios", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_016", "texto": "La plataforma académica no carga, ¿puedo obtener soporte técnico?", "intencion": "plataforma", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_017", "texto": "¿Cómo puedo solicitar una beca para mi proyecto de investigación?", "intencion": "becas", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_018", "texto": "Necesito un certificado de participación en el seminario universitario.", "intencion": "certificado", "urgencia": "alta"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_019", "texto": "¿Cómo puedo inscribirme para la nueva oferta académica?", "intencion": "matricula", "urgencia": "media"}
+{"source_model": "phi", "model_family": "Phi", "prompt_id": "p05", "id": "p05_020", "texto": "Tengo problemas con el saldo de mis pagos, ¿puedo hablar con un administrador?", "intencion": "pagos", "urgencia": "alta"}

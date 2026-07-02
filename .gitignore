@@ -1,0 +1,7 @@
+data/raw/
+reports/*.log
+outputs/*.inspect.ndjson
+Tarea-3-DP-main.zip
+_revision_amigo_Tarea-3-DP-main/
+__pycache__/
+*.pyc

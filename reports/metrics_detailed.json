@@ -1,0 +1,2146 @@
+{
+  "llama": {
+    "total_records": 100,
+    "invalid_jsonl_lines": 0,
+    "schema_valid_rate": 0.81,
+    "length_valid_rate": 0.52,
+    "topic_relevance_rate": 0.68,
+    "unique_text_rate": 0.91,
+    "duplicate_count": 9,
+    "distinct_1": 0.16452442159383032,
+    "distinct_2": 0.3561387066541706,
+    "intencion_entropy": 2.9681053717749513,
+    "urgencia_entropy": 1.6468025891363154,
+    "intencion_distribution": {
+      "plataforma": 21,
+      "horarios": 12,
+      "beka": 3,
+      "matricula": 18,
+      "pagos": 14,
+      "certificado": 12,
+      "": 9,
+      "becas": 4,
+      "beca": 7
+    },
+    "urgencia_distribution": {
+      "baja": 30,
+      "alta": 35,
+      "media": 34,
+      "": 1
+    },
+    "issues": [
+      {
+        "row": 1,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_001",
+          "texto": "Mi cuenta de correo universitario no funciona, ¿puedo pedir ayuda?",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 2,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_002",
+          "texto": "No puedo acceder a mis horarios de clase, ¿cómo puedo hacerlo?",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 3,
+        "type": "schema",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_003",
+          "texto": "Necesito ayuda para rellenar mi solicitud de beca, ¿puedo obtener orientación?",
+          "intencion": "beka",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 3,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_003",
+          "texto": "Necesito ayuda para rellenar mi solicitud de beca, ¿puedo obtener orientación?",
+          "intencion": "beka",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 4,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_004",
+          "texto": "Mi tarjeta de estudiante está dañada, ¿cómo puedo reemplazarla?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 5,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_005",
+          "texto": "No tengo dinero para pagar mis materias, ¿hay opciones de pago?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 8,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_008",
+          "texto": "No tengo conexión a Internet para acceder a mis materias, ¿hay soluciones?",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 9,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_009",
+          "texto": "Necesito ayuda con mi cuenta de correo universitario, ¿cómo puedo hacerlo?",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 11,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_011",
+          "texto": "No tengo acceso a mis materias en línea, ¿puedo pedir ayuda?",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 11,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_011",
+          "texto": "No tengo acceso a mis materias en línea, ¿puedo pedir ayuda?",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 12,
+        "type": "schema",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_012",
+          "texto": "Necesito ayuda con mi solicitud de beca, ¿cómo puedo proceder?",
+          "intencion": "beka",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 12,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_012",
+          "texto": "Necesito ayuda con mi solicitud de beca, ¿cómo puedo proceder?",
+          "intencion": "beka",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 14,
+        "type": "schema",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_014",
+          "texto": "No tengo conexión a Internet para acceder a mis materias en línea, ¿hay opciones?",
+          "intencion": "",
+          "urgencia": ""
+        }
+      },
+      {
+        "row": 14,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_014",
+          "texto": "No tengo conexión a Internet para acceder a mis materias en línea, ¿hay opciones?",
+          "intencion": "",
+          "urgencia": ""
+        }
+      },
+      {
+        "row": 17,
+        "type": "schema",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_017",
+          "texto": "Necesito ayuda con mi solicitud de beca y no tengo información suficiente.",
+          "intencion": "beka",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 20,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p01",
+          "id": "p01_020",
+          "texto": "No tengo acceso a mis materias en línea, ¿puedo pedir ayuda para solucionar el problema?",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 21,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_001",
+          "texto": "Hola, necesito ayuda con mi matrícula. ¿Cuándo puedo obtenerla?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 21,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_001",
+          "texto": "Hola, necesito ayuda con mi matrícula. ¿Cuándo puedo obtenerla?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 22,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_002",
+          "texto": "Me gustaría saber sobre las opciones de pago para mis estudios.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 23,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_003",
+          "texto": "Necesito cambiar mi horario de clases. ¿Cómo puedo hacerlo?",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 24,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_004",
+          "texto": "Me gustaría saber sobre las opciones de plataforma para mis cursos.",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 26,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_006",
+          "texto": "Me gustaría solicitar un certificado de asistencia para un curso.",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 27,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "Necesito saber si puedo cambiar mi fecha de inicio de clases.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 27,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "Necesito saber si puedo cambiar mi fecha de inicio de clases.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 29,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_009",
+          "texto": "Necesito saber si puedo obtener un crédito por horas adicionales.",
+          "intencion": "matricula",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 29,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_009",
+          "texto": "Necesito saber si puedo obtener un crédito por horas adicionales.",
+          "intencion": "matricula",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 30,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_010",
+          "texto": "Me gustaría saber sobre las opciones de plataforma para mis proyectos.",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 32,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Me gustaría solicitar ayuda con mi programa de estudio.",
+          "intencion": "matricula",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 32,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Me gustaría solicitar ayuda con mi programa de estudio.",
+          "intencion": "matricula",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 33,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_013",
+          "texto": "Necesito saber si puedo cambiar mi grupo de clase.",
+          "intencion": "horarios",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 35,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_015",
+          "texto": "Necesito saber si puedo obtener un certificado de graduación.",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 36,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_016",
+          "texto": "Me gustaría solicitar ayuda con mi plan de estudios.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 36,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_016",
+          "texto": "Me gustaría solicitar ayuda con mi plan de estudios.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 37,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_017",
+          "texto": "Necesito saber si puedo cambiar mi fecha de pago.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 39,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_019",
+          "texto": "Necesito saber si puedo obtener un crédito por horas adicionales.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 39,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_019",
+          "texto": "Necesito saber si puedo obtener un crédito por horas adicionales.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 40,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_020",
+          "texto": "Me gustaría solicitar ayuda con mi situación financiera.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 40,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p02",
+          "id": "p02_020",
+          "texto": "Me gustaría solicitar ayuda con mi situación financiera.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 41,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p03",
+          "id": "p03_001",
+          "texto": "¿Necesita ayuda con la matrícula? La oficina de admisiones está abierta los lunes y martes.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 48,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p03",
+          "id": "p03_008",
+          "texto": "¿Cuánto tiempo tiene para completar sus requisitos de crédito? La oficina de finanzas puede ayudarte a planificar.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 52,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p03",
+          "id": "p03_012",
+          "texto": "¿Cuánto tiempo tiene para completar sus cursos? La oficina de finanzas puede ayudarte a planificar.",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 55,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p03",
+          "id": "p03_015",
+          "texto": "¿Cuánto tiempo tiene para completar sus requisitos de crédito? La oficina de finanzas puede ayudarte a planificar.",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 59,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p03",
+          "id": "p03_019",
+          "texto": "¿Cuánto tiempo tiene para completar sus cursos? La oficina de finanzas puede ayudarte a planificar.",
+          "intencion": "pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 61,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_001",
+          "texto": "Tengo una pregunta sobre mi horario de clase",
+          "intencion": "horarios",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 62,
+        "type": "schema",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_002",
+          "texto": "Necesito ayuda para hacer una solicitud de beca",
+          "intencion": "beca",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 62,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_002",
+          "texto": "Necesito ayuda para hacer una solicitud de beca",
+          "intencion": "beca",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 63,
+        "type": "length",
+        "word_count": 5,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_003",
+          "texto": "Mi tarjeta estudiantil no funciona",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 63,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_003",
+          "texto": "Mi tarjeta estudiantil no funciona",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 64,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_004",
+          "texto": "¿Cómo puedo pagar mi cuota de inscripción?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 64,
+        "type": "relevance",
+        "record": {
+          "source_model": "llama",
+          "model_family": "LLaMA",
+          "prompt_id": "p04",
+          "id": "p04_004",
+          "texto": "¿Cómo puedo pagar mi cuota de inscripción?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      }
+    ]
+  },
+  "mistral": {
+    "total_records": 100,
+    "invalid_jsonl_lines": 0,
+    "schema_valid_rate": 0.96,
+    "length_valid_rate": 0.09,
+    "topic_relevance_rate": 0.73,
+    "unique_text_rate": 0.99,
+    "duplicate_count": 1,
+    "distinct_1": 0.16004296455424274,
+    "distinct_2": 0.3525872442839952,
+    "intencion_entropy": 2.7801868623077093,
+    "urgencia_entropy": 1.4994227679976009,
+    "intencion_distribution": {
+      "matricula": 15,
+      "pagos": 17,
+      "horarios": 14,
+      "plataforma": 16,
+      "becas": 17,
+      "certificado": 17,
+      "matricula, pagos": 2,
+      "matricula, pagos, horarios, plataforma, certificado": 1,
+      "matricula, pagos, plataforma": 1
+    },
+    "urgencia_distribution": {
+      "baja": 50,
+      "alta": 26,
+      "media": 24
+    },
+    "issues": [
+      {
+        "row": 1,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_001",
+          "texto": "¿Cómo puedo obtener una matrícula en el semestre actual?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 1,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_001",
+          "texto": "¿Cómo puedo obtener una matrícula en el semestre actual?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 2,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_002",
+          "texto": "Tengo dudas sobre mi pago de matrícula, ¿cómo puedo solucionarlo?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 3,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_003",
+          "texto": "¿Cuándo comienzan los horarios de clases para el próximo semestre?",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 4,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_004",
+          "texto": "¿En qué plataforma está alojado el contenido de mi curso?",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 5,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_005",
+          "texto": "¿Cómo puedo solicitar una beca para el próximo semestre?",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 6,
+        "type": "length",
+        "word_count": 6,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_006",
+          "texto": "¿Cómo puedo reemplazar un certificado perdido?",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 7,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_007",
+          "texto": "Tengo dudas sobre mi registro académico, ¿cómo puedo solucionarlo?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 7,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_007",
+          "texto": "Tengo dudas sobre mi registro académico, ¿cómo puedo solucionarlo?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 8,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_008",
+          "texto": "¿Cuál es el proceso para pagar mis cuotas de universidad?",
+          "intencion": "pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 9,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_009",
+          "texto": "¿Dónde puedo encontrar los horarios de mi profesor?",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 10,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_010",
+          "texto": "¿Cómo puedo acceder a la plataforma de mi universidad?",
+          "intencion": "plataforma",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 11,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_011",
+          "texto": "¿Cómo puedo solicitar una extensión para mi tarea?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 11,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_011",
+          "texto": "¿Cómo puedo solicitar una extensión para mi tarea?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 12,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_012",
+          "texto": "¿Cómo puedo pagar mis cuotas de universidad en línea?",
+          "intencion": "pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 13,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_013",
+          "texto": "¿Cómo puedo solicitar una copia de mi transcripción?",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 13,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_013",
+          "texto": "¿Cómo puedo solicitar una copia de mi transcripción?",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 14,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_014",
+          "texto": "¿Dónde puedo encontrar información sobre becas de estudio?",
+          "intencion": "becas",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 15,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_015",
+          "texto": "¿Cómo puedo revisar mis cuotas de universidad?",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 16,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_016",
+          "texto": "¿Cómo puedo solicitar una copia del reglamento académico?",
+          "intencion": "certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 16,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_016",
+          "texto": "¿Cómo puedo solicitar una copia del reglamento académico?",
+          "intencion": "certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 17,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_017",
+          "texto": "¿Cómo puedo solicitar una copia del horario de clases?",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 18,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_018",
+          "texto": "¿Cómo puedo solicitar una copia de mi certificado de matrícula?",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 19,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_019",
+          "texto": "¿Cómo puedo solicitar una copia de mi certificado de graduación?",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 20,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p01",
+          "id": "p01_020",
+          "texto": "¿Cómo puedo solicitar una copia de mi certificado de participación?",
+          "intencion": "certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 21,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_001",
+          "texto": "Buenos días, necesito asistencia para la matriculación en línea.",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 22,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_002",
+          "texto": "Hola, tengo dudas con el sistema de pagos en línea.",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 23,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_003",
+          "texto": "¡Hola! ¿Cómo puedo obtener los horarios de mis clases?",
+          "intencion": "horarios",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 24,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_004",
+          "texto": "Necesito ayuda para acceder a la plataforma de aprendizaje.",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 25,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_005",
+          "texto": "Hola, ¿qué pasos tengo que seguir para solicitar una beca?",
+          "intencion": "becas",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 26,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_006",
+          "texto": "¡Hola! ¿Cómo puedo solicitar un certificado de mis estudios en línea?",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 27,
+        "type": "schema",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "¡Hola! ¿Dónde encuentro información sobre mi matrícula y pagos?",
+          "intencion": "matricula, pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 27,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "¡Hola! ¿Dónde encuentro información sobre mi matrícula y pagos?",
+          "intencion": "matricula, pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 28,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_008",
+          "texto": "¡Hola! ¿Cómo puedo cambiar mis horarios de clases?",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 29,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_009",
+          "texto": "Necesito ayuda para solucionar un problema con la plataforma.",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 30,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_010",
+          "texto": "¡Hola! ¿Cómo puedo solicitar una copia de mi certificado?",
+          "intencion": "certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 31,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_011",
+          "texto": "¡Hola! ¿Cómo puedo saber si tengo una beca otorgada?",
+          "intencion": "becas",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 32,
+        "type": "schema",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Necesito ayuda para encontrar información sobre mis estudios en línea.",
+          "intencion": "matricula, pagos, horarios, plataforma, certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 32,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Necesito ayuda para encontrar información sobre mis estudios en línea.",
+          "intencion": "matricula, pagos, horarios, plataforma, certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 32,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Necesito ayuda para encontrar información sobre mis estudios en línea.",
+          "intencion": "matricula, pagos, horarios, plataforma, certificado",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 33,
+        "type": "schema",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_013",
+          "texto": "¡Hola! ¿Cómo puedo acceder a mis datos personales en línea?",
+          "intencion": "matricula, pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 33,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_013",
+          "texto": "¡Hola! ¿Cómo puedo acceder a mis datos personales en línea?",
+          "intencion": "matricula, pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 33,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_013",
+          "texto": "¡Hola! ¿Cómo puedo acceder a mis datos personales en línea?",
+          "intencion": "matricula, pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 34,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_014",
+          "texto": "¡Hola! ¿Cómo puedo solicitar una copia de mi matrícula?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 34,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_014",
+          "texto": "¡Hola! ¿Cómo puedo solicitar una copia de mi matrícula?",
+          "intencion": "matricula",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 35,
+        "type": "schema",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_015",
+          "texto": "Necesito ayuda para resolver un problema con mi cuenta.",
+          "intencion": "matricula, pagos, plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 35,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_015",
+          "texto": "Necesito ayuda para resolver un problema con mi cuenta.",
+          "intencion": "matricula, pagos, plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 35,
+        "type": "relevance",
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_015",
+          "texto": "Necesito ayuda para resolver un problema con mi cuenta.",
+          "intencion": "matricula, pagos, plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 36,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_016",
+          "texto": "¡Hola! ¿Cómo puedo saber si tengo deudas pendientes en pagos?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 37,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "mistral",
+          "model_family": "Mistral",
+          "prompt_id": "p02",
+          "id": "p02_017",
+          "texto": "Necesito ayuda para acceder a mi cuenta de becas.",
+          "intencion": "becas",
+          "urgencia": "media"
+        }
+      }
+    ]
+  },
+  "phi": {
+    "total_records": 100,
+    "invalid_jsonl_lines": 0,
+    "schema_valid_rate": 0.76,
+    "length_valid_rate": 0.12,
+    "topic_relevance_rate": 0.65,
+    "unique_text_rate": 0.79,
+    "duplicate_count": 21,
+    "distinct_1": 0.260752688172043,
+    "distinct_2": 0.5939849624060151,
+    "intencion_entropy": 2.837799469949106,
+    "urgencia_entropy": 1.27241742914008,
+    "intencion_distribution": {
+      "becas": 14,
+      "horarios": 13,
+      "pagos": 17,
+      "certificado": 12,
+      "plataforma": 11,
+      "": 22,
+      "matricula": 9,
+      "reglas administrativas": 2
+    },
+    "urgencia_distribution": {
+      "media": 48,
+      "alta": 47,
+      "": 1,
+      "baja": 4
+    },
+    "issues": [
+      {
+        "row": 1,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_001",
+          "texto": "Estoy confundido sobre cómo solicitar una beca de matrícula.",
+          "intencion": "becas",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 2,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_002",
+          "texto": "Necesito ayuda para actualizar mi horario en la plataforma universitaria.",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 3,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_003",
+          "texto": "¿Cómo puedo hacer un pago anticipado de matrícula?",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 4,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_004",
+          "texto": "Estoy buscando cómo obtener mi certificado académico en la universidad.",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 5,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_005",
+          "texto": "Quisiera saber los horarios disponibles para el próximo semestre de matemáticas.",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 7,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_007",
+          "texto": "",
+          "intencion": "",
+          "urgencia": ""
+        }
+      },
+      {
+        "row": 7,
+        "type": "length",
+        "word_count": 0,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_007",
+          "texto": "",
+          "intencion": "",
+          "urgencia": ""
+        }
+      },
+      {
+        "row": 7,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_007",
+          "texto": "",
+          "intencion": "",
+          "urgencia": ""
+        }
+      },
+      {
+        "row": 8,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_008",
+          "texto": "Tengo dificultades con el proceso de pago anticipado, ¿puedo recibir orientación?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 9,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_009",
+          "texto": "¿Cuál es la manera correcta para solicitar una transferencia académica?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 9,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_009",
+          "texto": "¿Cuál es la manera correcta para solicitar una transferencia académica?",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 12,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_012",
+          "texto": "¿Cómo puedo solicitar una beca de ayuda financiera a tiempo?",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 13,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_013",
+          "texto": "Estoy buscando cómo cambiar mi horario debido al trabajo.",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 14,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_014",
+          "texto": "¿Cómo puedo asegurarme de que mis pagos mensuales estén pendientes?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 15,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_015",
+          "texto": "Estoy necesitando ayuda para solicitar un certificado de crédito del instituto.",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 16,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p01",
+          "id": "p01_016",
+          "texto": "Necesito información sobre cómo encargar una beca deportiva a tiempo.",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 21,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_001",
+          "texto": "Hola, quisiera cambiar mi horario de clases.",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 22,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_002",
+          "texto": "Necesito ayuda con el pago del semestre.",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 23,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_003",
+          "texto": "¿Cómo acceder a la plataforma de estudiantes?",
+          "intencion": "plataforma",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 24,
+        "type": "length",
+        "word_count": 6,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_004",
+          "texto": "Mi beca no ha sido procesada.",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 25,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_005",
+          "texto": "Por favor, envíame mi certificado de inscripción.",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 26,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_006",
+          "texto": "Estoy insatisfecho con el horario actual. Recomendación para cambio?",
+          "intencion": "horarios",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 27,
+        "type": "length",
+        "word_count": 6,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "Hola, necesito ayuda con mi RUT.",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 27,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_007",
+          "texto": "Hola, necesito ayuda con mi RUT.",
+          "intencion": "matricula",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 28,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_008",
+          "texto": "¿Cómo puedo pagar por adelantado para el próximo año?",
+          "intencion": "pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 28,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_008",
+          "texto": "¿Cómo puedo pagar por adelantado para el próximo año?",
+          "intencion": "pagos",
+          "urgencia": "baja"
+        }
+      },
+      {
+        "row": 29,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_009",
+          "texto": "Estoy teniendo problemas con la plataforma de estudiantes, ¿puedo llamarte?",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 30,
+        "type": "length",
+        "word_count": 5,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_010",
+          "texto": "Necesito información sobre becas deportivas.",
+          "intencion": "becas",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 31,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_011",
+          "texto": "¿Puedes ayudarme a solicitar mi certificado de matrícula?",
+          "intencion": "certificado",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 32,
+        "type": "length",
+        "word_count": 9,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_012",
+          "texto": "Quisiera saber sobre horarios alternativos para la próxima semana.",
+          "intencion": "horarios",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 33,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_013",
+          "texto": "Estoy teniendo problemas con mi pago del semestre, ¿puedes ayudarme?",
+          "intencion": "pagos",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 35,
+        "type": "length",
+        "word_count": 8,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_015",
+          "texto": "Necesito ayuda con la solicitud de una beca.",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 36,
+        "type": "length",
+        "word_count": 6,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_016",
+          "texto": "¿Cómo puedo obtener mi certificado académico?",
+          "intencion": "certificado",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 37,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_017",
+          "texto": "Necesito cambiar a otro horario de clases, ¿es posible hacerlo ahora?",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 37,
+        "type": "length",
+        "word_count": 11,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_017",
+          "texto": "Necesito cambiar a otro horario de clases, ¿es posible hacerlo ahora?",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 38,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_018",
+          "texto": "Estoy teniendo problemas con la plataforma. Me gustaría hablar contigo.",
+          "intencion": "plataforma",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 39,
+        "type": "length",
+        "word_count": 7,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_019",
+          "texto": "¿Cómo puedo pagar mi matrícula por adelantado?",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 39,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_019",
+          "texto": "¿Cómo puedo pagar mi matrícula por adelantado?",
+          "intencion": "pagos",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 40,
+        "type": "length",
+        "word_count": 10,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p02",
+          "id": "p02_020",
+          "texto": "Necesito ayuda con el proceso de solicitud para una beca.",
+          "intencion": "becas",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 41,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_001",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 41,
+        "type": "length",
+        "word_count": 0,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_001",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 41,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_001",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 42,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_002",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 42,
+        "type": "length",
+        "word_count": 0,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_002",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 42,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_002",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 43,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_003",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 43,
+        "type": "length",
+        "word_count": 0,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_003",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 43,
+        "type": "relevance",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_003",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "media"
+        }
+      },
+      {
+        "row": 44,
+        "type": "schema",
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_004",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      },
+      {
+        "row": 44,
+        "type": "length",
+        "word_count": 0,
+        "record": {
+          "source_model": "phi",
+          "model_family": "Phi",
+          "prompt_id": "p03",
+          "id": "p03_004",
+          "texto": "",
+          "intencion": "",
+          "urgencia": "alta"
+        }
+      }
+    ]
+  }
+}
