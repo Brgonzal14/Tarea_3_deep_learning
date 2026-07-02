@@ -7,7 +7,7 @@ sinteticos para consultas de estudiantes a soporte universitario.
 
 ## 2. Entorno
 
-- Windows 10 Pro 2009, 64 bits.
+- Windows 11 Pro Insider Preview 26H2, 64 bits.
 - CPU: Intel Core i5-10400 @ 2.90GHz.
 - GPU: NVIDIA GeForce RTX 2060.
 - RAM: 47.92 GB.
@@ -47,4 +47,3 @@ ejemplos en JSON con `id`, `texto`, `intencion` y `urgencia`.
 Mistral fue el modelo mas conveniente por su estabilidad, formato valido y alta
 relevancia. LLaMA fue el mejor en longitud. Phi fue el mas diverso, aunque menos
 consistente.
-

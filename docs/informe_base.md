@@ -12,7 +12,7 @@ cantidad de ejemplos y configuracion de generacion.
 
 | Campo | Valor |
 |---|---|
-| Sistema operativo | Windows 10 Pro 2009, 64 bits |
+| Sistema operativo | Windows 11 Pro Insider Preview 26H2, 64 bits |
 | CPU | Intel Core i5-10400 @ 2.90GHz |
 | Procesadores logicos | 12 |
 | GPU | NVIDIA GeForce RTX 2060 |
@@ -123,4 +123,3 @@ destaco por diversidad lexica, aunque tuvo menor consistencia en etiquetas y mas
 duplicacion. Para una version final de produccion, se recomienda usar Mistral y
 aplicar una etapa de validacion automatica posterior para corregir longitud y
 etiquetas.
-

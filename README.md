@@ -120,7 +120,7 @@ La entrega final debe incluir:
 
 | Campo | Valor |
 |---|---|
-| Sistema operativo | Windows 10 Pro 2009, 64 bits |
+| Sistema operativo | Windows 11 Pro Insider Preview 26H2, 64 bits |
 | CPU | Intel Core i5-10400 @ 2.90GHz |
 | GPU | NVIDIA GeForce RTX 2060 |
 | RAM | 47.92 GB |
