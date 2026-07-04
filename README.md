@@ -29,7 +29,6 @@ data/raw/                   Respuestas crudas de cada modelo
 data/generated/             JSONL limpio por modelo
 data/final/                 Dataset unido y particionado
 reports/                    Metricas y resumen para el informe
-slides/                     Guion/base para la presentacion
 ```
 
 ## Paso 1: instalar herramienta local
@@ -107,14 +106,7 @@ posterior:
 python scripts/split_dataset.py --input data/generated --output data/final --train 0.70 --validation 0.15 --test 0.15
 ```
 
-## Paso 6: completar informe/video
 
-Usar `slides/presentacion_base.md` como guion para las diapositivas y el video.
-La entrega final debe incluir:
-
-- repositorio GitHub con este codigo y datasets generados.
-- video de maximo 20 minutos.
-- presentacion usada en el video.
 
 ## Datos del entorno documentado
 
